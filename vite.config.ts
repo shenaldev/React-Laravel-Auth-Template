@@ -6,7 +6,7 @@ import { resolve } from "path";
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve("src", "src/components/index.jsx"),
+      entry: resolve("src", "./components/Auth.tsx"),
       name: "react-laravel-auth",
       fileName: (format) => `react-laravel-auth.${format}.js`,
     },
